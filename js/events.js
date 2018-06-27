@@ -18,7 +18,11 @@ function pressIt() {
   });
 }
 
-
+function submitIt() {
+  $('form').on('submit',function() {
+    alert('Your form is going to be submitted now');
+  });
+}
   
 
 $(document).ready(function(){
@@ -26,5 +30,6 @@ $(document).ready(function(){
 console.log(getIt)
 console.log(frameIt)
 console.log(pressIt)
+console.log(submitIt)
 
 });
