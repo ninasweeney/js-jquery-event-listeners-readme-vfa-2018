@@ -24,5 +24,7 @@ function pressIt() {
 $(document).ready(function(){
 
 console.log(getIt)
+console.log(frameIt)
+console.log(pressIt)
 
 });
