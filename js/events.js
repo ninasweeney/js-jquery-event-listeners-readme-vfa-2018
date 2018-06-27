@@ -1,7 +1,20 @@
-//define functions here
+function getIt() {
+  $('p').on('click',function() {
+    alert("Hey!");
+  });
+}
+
+function frameIt() {
+  $('.tasty').('load',function() {
+    
+  }
+}
+
+
+  
 
 $(document).ready(function(){
 
-// call functions here
+console.log(getIt)
 
 });
